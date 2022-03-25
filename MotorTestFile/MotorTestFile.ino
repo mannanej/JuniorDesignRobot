@@ -30,7 +30,7 @@ void loop()                                   // this tells the function inside 
     directionServo.write(deg);
     delay(10);
   }
-   for (int deg = 90; deg >= 10; deg -= 1) {
+  for (int deg = 90; deg >= 10; deg -= 1) {
     directionServo.write(deg);
     delay(10);
   }
@@ -47,5 +47,5 @@ void loop()                                   // this tells the function inside 
     speedServo.write(deg);
     delay(10);
   }
-  delay(1000);
+  delay(5000);
 }
